@@ -1,12 +1,14 @@
-### How to Test Machine Learning Code and Systems
+# How to Test Machine Learning Code and Systems
 
 ML tests can be further split into testing and evaluation. We’re familiar with ML evaluation where we train a model and evaluate its performance on an unseen validation set; this is done via metrics (e.g., accuracy, Area under Curve of Receiver Operating Characteristic (AUC ROC)) and visuals (e.g., precision-recall curve).
 
 On the other hand, ML testing involves checks on model behaviour. Pre-train tests—which can be run without trained parameters—check if our written logic is correct. For example, is classification probability between 0 to 1? Post-train tests check if the learned logic is expected. For example, on the Titanic dataset, we should expect females to have a higher survival probability (relative to males).
 ![Workflow for testing machine learning models Image](https://eugeneyan.com/assets/testing-ml-flow.jpg)
 Taken together, here’s how the workflow might look like. To complement this, we’ll implement a machine learning model and run the following tests on it:
-[Pre train tests](https://eugeneyan.com/writing/testing-ml/#pre-train-tests-to-ensure-correct-implementation1)
-[Post train test](https://eugeneyan.com/writing/testing-ml/#post-train-tests-to-ensure-expected-learned-behaviour)
+[Pre-train tests to ensure correct implementation](https://eugeneyan.com/writing/testing-ml/#pre-train-tests-to-ensure-correct-implementation1)
+
+[Post-train test to ensure expected learn behaviour](https://eugeneyan.com/writing/testing-ml/#post-train-tests-to-ensure-expected-learned-behaviour)
+
 [Evaluation to ensure satisfactory model performance](https://eugeneyan.com/writing/testing-ml/#model-evaluation-to-ensure-satisfactory-performance)
 
 ## Setting up the context (algorithm and data)
