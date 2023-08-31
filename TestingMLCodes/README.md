@@ -17,7 +17,8 @@ Before we can do ML testing, we’ll need an algorithm and some data. Our algori
 
 To run our tests, we’ll use the Titanic dataset. This tiny data set (~900 rows, 10 features) makes for fast testing (when model training is involved) and allows us to iterate quickly. (As part of performance evaluation, we run fit() and predict() hundreds of times to get the 99th percentile timing.) The simplicity and familiarity of the data also makes it easier to discuss the post-train (i.e., learned logic) tests.
 
-![Screenshot]("C:\Users\user\Documents\TestingMLCodes\How to Test Machine Learning Code and Systems.html"01)
+![Screenshot](![image](https://github.com/B3rnoulli-jnr/How-to-Test-Machine-Learning-Codes--and-Systems/assets/88025774/cb17bbe8-1f83-4e3e-968c-f67b15172122)
+)
 
 
 Resource: ![How to Test Machine Learning Code and Systems](https://eugeneyan.com/writing/testing-ml/01)
